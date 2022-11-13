@@ -18,7 +18,6 @@ export default function NotToDO({task}: Props) {
       <button
         onClick={() => {
           task.remove_me(task.id);
-          console.log('button');
         }}
       >
         remove
